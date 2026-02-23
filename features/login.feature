@@ -2,7 +2,7 @@ Feature: User login
 
   Scenario: Successful login
     Given the user is on the nopCommerce login page
-    When the user enters valid credentials (username: "test3x@gmail.com", password: "test3x@123")
+    When the user enters valid credentials (username: "test4x@gmail.com", password: "test4x@123")
     And the user clicks on the Login button
     Then the user should be redirected to the My Account page
     And the user should see a welcome message
