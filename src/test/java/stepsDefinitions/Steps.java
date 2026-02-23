@@ -28,9 +28,9 @@ public class Steps {
         Thread.sleep(2000);
         driver.findElement(By.xpath("//label[text()='First name:']//following-sibling::input")).sendKeys("abc");
         driver.findElement(By.xpath("//label[text()='Last name:']//following-sibling::input")).sendKeys("def");
-        driver.findElement(By.xpath("//label[text()='Email:']//following-sibling::input")).sendKeys("test2x@gmail.com");
-        driver.findElement(By.xpath("//label[text()='Password:']//following-sibling::input")).sendKeys("test2x@123");
-        driver.findElement(By.xpath("//label[text()='Confirm password:']//following-sibling::input")).sendKeys("test2x@123");
+        driver.findElement(By.xpath("//label[text()='Email:']//following-sibling::input")).sendKeys("test3x@gmail.com");
+        driver.findElement(By.xpath("//label[text()='Password:']//following-sibling::input")).sendKeys("test3x@123");
+        driver.findElement(By.xpath("//label[text()='Confirm password:']//following-sibling::input")).sendKeys("test3x@123");
         driver.findElement(By.xpath("//button[text()='Register']")).click();
         Thread.sleep(2000);
         driver.findElement(By.xpath("//a[text()='Log out']")).click();
